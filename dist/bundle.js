@@ -21502,17 +21502,27 @@
 	          _react2.default.createElement(
 	            'li',
 	            null,
-	            'Item 1'
+	            'Home'
 	          ),
 	          _react2.default.createElement(
 	            'li',
 	            null,
-	            'Item 2'
+	            'Contact'
 	          ),
 	          _react2.default.createElement(
 	            'li',
 	            null,
-	            'Item 3'
+	            'Projects'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'Resume'
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            'About'
 	          )
 	        )
 	      );
@@ -21559,7 +21569,7 @@
 
 
 	// module
-	exports.push([module.id, "#header {\n  height: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  background: red; }\n  #header .header-list {\n    margin: 0;\n    list-style-type: none;\n    display: flex;\n    width: 500px;\n    justify-content: space-between; }\n    #header .header-list li {\n      float: left;\n      margin-right: 10px; }\n", ""]);
+	exports.push([module.id, "#header {\n  height: 40px;\n  display: flex;\n  align-items: center;\n  background: black; }\n  #header .header-list {\n    margin: 0;\n    list-style-type: none; }\n    #header .header-list li {\n      float: left;\n      margin-right: 100px;\n      color: white;\n      padding: 11px; }\n      #header .header-list li:hover {\n        background: #808080; }\n", ""]);
 
 	// exports
 

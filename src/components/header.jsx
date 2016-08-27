@@ -9,9 +9,11 @@ export default class Header extends React.Component {
     return (
       <div id="header">
         <ul className="header-list">
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
+          <li>Home</li>
+          <li>Contact</li>
+          <li>Projects</li>
+          <li>Resume</li>
+          <li>About</li>
         </ul>
       </div>
     );
